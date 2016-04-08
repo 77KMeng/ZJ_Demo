@@ -11,6 +11,8 @@
 #import <GPUImageGaussianBlurFilter.h>
 #import <GPUImageGaussianSelectiveBlurFilter.h>
 #import <GPUImageSepiaFilter.h>
+#import <GPUImageSketchFilter.h>
+#import <GPUImageToonFilter.h>
 @interface ViewController ()
 
 @end
@@ -24,7 +26,8 @@
     
     UIImage *inputImage = [UIImage imageNamed:@"1.jpg"];
     
-#if 1
+    
+#if 0
     // 边缘阴影.
     GPUImageVignetteFilter *disFilter = [[GPUImageVignetteFilter alloc] init];
         //设置要渲染的区域
@@ -40,13 +43,13 @@
     UIImage *newImage = [disFilter imageFromCurrentFramebuffer];
         //加载出来
     UIImageView *imageView = [[UIImageView alloc] initWithImage:newImage];
-    imageView.frame = CGRectMake(50,50,200 ,300);
+    imageView.frame = CGRectMake(50,50,200 ,350);
     [self.view addSubview:imageView];
 #endif
     // 高斯模糊
 #if 0
     GPUImageGaussianBlurFilter *gaussianBlurFilter = [[GPUImageGaussianBlurFilter alloc] init];
-    [gaussianBlurFilter forceProcessingAtSize:CGSizeMake(200, 300)];
+    [gaussianBlurFilter forceProcessingAtSize:CGSizeMake(200, 350)];
     [gaussianBlurFilter useNextFrameForImageCapture];
     //获取数据源
     GPUImagePicture *stillImageSource = [[GPUImagePicture alloc]initWithImage:inputImage];
@@ -58,7 +61,7 @@
     UIImage *newImage = [gaussianBlurFilter imageFromCurrentFramebuffer];
     //加载出来
     UIImageView *imageView = [[UIImageView alloc] initWithImage:newImage];
-    imageView.frame = CGRectMake(50,50,200 ,300);
+    imageView.frame = CGRectMake(50,50,200 ,350);
     [self.view addSubview:imageView];
 #endif
 #if 0
@@ -101,6 +104,28 @@
     UIImageView *imageView = [[UIImageView alloc] initWithImage:newImage];
     imageView.frame = CGRectMake(50,50,320 ,650);
     [self.view addSubview:imageView];
+#endif
+#if 1
+    // GPUImageToonFilter
+    GPUImageToonFilter *disFilter = [[GPUImageToonFilter alloc] init];
+    //设置要渲染的区域
+    [disFilter forceProcessingAtSize:inputImage.size];
+    [disFilter useNextFrameForImageCapture];
+    //获取数据源
+    GPUImagePicture *stillImageSource = [[GPUImagePicture alloc]initWithImage:inputImage];
+    //添加上滤镜
+    [stillImageSource addTarget:disFilter];
+    //开始渲染
+    [stillImageSource processImage];
+    //获取渲染后的图片
+    UIImage *newImage = [disFilter imageFromCurrentFramebuffer];
+    disFilter.quantizationLevels = 1.0;
+    disFilter.threshold = 5.0;
+    //加载出来
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:newImage];
+    imageView.frame = CGRectMake(50,50,320 ,550);
+    [self.view addSubview:imageView];
+    
 #endif
     /**
      
