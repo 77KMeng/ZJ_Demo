@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC62AD241CB4B1B9004E274F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD231CB4B1B9004E274F /* main.m */; };
+		BC62AD271CB4B1B9004E274F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD261CB4B1B9004E274F /* AppDelegate.m */; };
+		BC62AD2A1CB4B1B9004E274F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD291CB4B1B9004E274F /* ViewController.m */; };
+		BC62AD2D1CB4B1B9004E274F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC62AD2B1CB4B1B9004E274F /* Main.storyboard */; };
+		BC62AD2F1CB4B1B9004E274F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC62AD2E1CB4B1B9004E274F /* Assets.xcassets */; };
+		BC62AD321CB4B1B9004E274F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC62AD301CB4B1B9004E274F /* LaunchScreen.storyboard */; };
+		BC62AD3D1CB4B1B9004E274F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD3C1CB4B1B9004E274F /* ____Tests.m */; };
+		BC62AD481CB4B1B9004E274F /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD471CB4B1B9004E274F /* ____UITests.m */; };
+		BC62AD5E1CB4B4CC004E274F /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD571CB4B4CC004E274F /* TPKeyboardAvoidingCollectionView.m */; };
+		BC62AD5F1CB4B4CC004E274F /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD591CB4B4CC004E274F /* TPKeyboardAvoidingScrollView.m */; };
+		BC62AD601CB4B4CC004E274F /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD5B1CB4B4CC004E274F /* TPKeyboardAvoidingTableView.m */; };
+		BC62AD611CB4B4CC004E274F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD5D1CB4B4CC004E274F /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		BC62AD641CB4B985004E274F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD631CB4B985004E274F /* TableViewCell.m */; };
+		BC62AD671CB4BD86004E274F /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62AD661CB4BD86004E274F /* CollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC62AD391CB4B1B9004E274F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC62AD171CB4B1B9004E274F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC62AD1E1CB4B1B9004E274F;
+			remoteInfo = "键盘遮挡";
+		};
+		BC62AD441CB4B1B9004E274F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC62AD171CB4B1B9004E274F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC62AD1E1CB4B1B9004E274F;
+			remoteInfo = "键盘遮挡";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC62AD1F1CB4B1B9004E274F /* 键盘遮挡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "键盘遮挡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC62AD231CB4B1B9004E274F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC62AD251CB4B1B9004E274F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC62AD261CB4B1B9004E274F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC62AD281CB4B1B9004E274F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC62AD291CB4B1B9004E274F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC62AD2C1CB4B1B9004E274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC62AD2E1CB4B1B9004E274F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC62AD311CB4B1B9004E274F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC62AD331CB4B1B9004E274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC62AD381CB4B1B9004E274F /* 键盘遮挡Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘遮挡Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC62AD3C1CB4B1B9004E274F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		BC62AD3E1CB4B1B9004E274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC62AD431CB4B1B9004E274F /* 键盘遮挡UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘遮挡UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC62AD471CB4B1B9004E274F /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		BC62AD491CB4B1B9004E274F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC62AD561CB4B4CC004E274F /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		BC62AD571CB4B4CC004E274F /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		BC62AD581CB4B4CC004E274F /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		BC62AD591CB4B4CC004E274F /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		BC62AD5A1CB4B4CC004E274F /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		BC62AD5B1CB4B4CC004E274F /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		BC62AD5C1CB4B4CC004E274F /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		BC62AD5D1CB4B4CC004E274F /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		BC62AD621CB4B985004E274F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BC62AD631CB4B985004E274F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		BC62AD651CB4BD86004E274F /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		BC62AD661CB4BD86004E274F /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC62AD1C1CB4B1B9004E274F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62AD351CB4B1B9004E274F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62AD401CB4B1B9004E274F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC62AD161CB4B1B9004E274F = {
+			isa = PBXGroup;
+			children = (
+				BC62AD211CB4B1B9004E274F /* 键盘遮挡 */,
+				BC62AD3B1CB4B1B9004E274F /* 键盘遮挡Tests */,
+				BC62AD461CB4B1B9004E274F /* 键盘遮挡UITests */,
+				BC62AD201CB4B1B9004E274F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC62AD201CB4B1B9004E274F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC62AD1F1CB4B1B9004E274F /* 键盘遮挡.app */,
+				BC62AD381CB4B1B9004E274F /* 键盘遮挡Tests.xctest */,
+				BC62AD431CB4B1B9004E274F /* 键盘遮挡UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC62AD211CB4B1B9004E274F /* 键盘遮挡 */ = {
+			isa = PBXGroup;
+			children = (
+				BC62AD551CB4B4CC004E274F /* TPKeyboardAvoiding */,
+				BC62AD251CB4B1B9004E274F /* AppDelegate.h */,
+				BC62AD261CB4B1B9004E274F /* AppDelegate.m */,
+				BC62AD281CB4B1B9004E274F /* ViewController.h */,
+				BC62AD291CB4B1B9004E274F /* ViewController.m */,
+				BC62AD2B1CB4B1B9004E274F /* Main.storyboard */,
+				BC62AD2E1CB4B1B9004E274F /* Assets.xcassets */,
+				BC62AD301CB4B1B9004E274F /* LaunchScreen.storyboard */,
+				BC62AD331CB4B1B9004E274F /* Info.plist */,
+				BC62AD221CB4B1B9004E274F /* Supporting Files */,
+				BC62AD621CB4B985004E274F /* TableViewCell.h */,
+				BC62AD631CB4B985004E274F /* TableViewCell.m */,
+				BC62AD651CB4BD86004E274F /* CollectionViewCell.h */,
+				BC62AD661CB4BD86004E274F /* CollectionViewCell.m */,
+			);
+			path = "键盘遮挡";
+			sourceTree = "<group>";
+		};
+		BC62AD221CB4B1B9004E274F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC62AD231CB4B1B9004E274F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC62AD3B1CB4B1B9004E274F /* 键盘遮挡Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC62AD3C1CB4B1B9004E274F /* ____Tests.m */,
+				BC62AD3E1CB4B1B9004E274F /* Info.plist */,
+			);
+			path = "键盘遮挡Tests";
+			sourceTree = "<group>";
+		};
+		BC62AD461CB4B1B9004E274F /* 键盘遮挡UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC62AD471CB4B1B9004E274F /* ____UITests.m */,
+				BC62AD491CB4B1B9004E274F /* Info.plist */,
+			);
+			path = "键盘遮挡UITests";
+			sourceTree = "<group>";
+		};
+		BC62AD551CB4B4CC004E274F /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				BC62AD561CB4B4CC004E274F /* TPKeyboardAvoidingCollectionView.h */,
+				BC62AD571CB4B4CC004E274F /* TPKeyboardAvoidingCollectionView.m */,
+				BC62AD581CB4B4CC004E274F /* TPKeyboardAvoidingScrollView.h */,
+				BC62AD591CB4B4CC004E274F /* TPKeyboardAvoidingScrollView.m */,
+				BC62AD5A1CB4B4CC004E274F /* TPKeyboardAvoidingTableView.h */,
+				BC62AD5B1CB4B4CC004E274F /* TPKeyboardAvoidingTableView.m */,
+				BC62AD5C1CB4B4CC004E274F /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				BC62AD5D1CB4B4CC004E274F /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC62AD1E1CB4B1B9004E274F /* 键盘遮挡 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62AD4C1CB4B1B9004E274F /* Build configuration list for PBXNativeTarget "键盘遮挡" */;
+			buildPhases = (
+				BC62AD1B1CB4B1B9004E274F /* Sources */,
+				BC62AD1C1CB4B1B9004E274F /* Frameworks */,
+				BC62AD1D1CB4B1B9004E274F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "键盘遮挡";
+			productName = "键盘遮挡";
+			productReference = BC62AD1F1CB4B1B9004E274F /* 键盘遮挡.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC62AD371CB4B1B9004E274F /* 键盘遮挡Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62AD4F1CB4B1B9004E274F /* Build configuration list for PBXNativeTarget "键盘遮挡Tests" */;
+			buildPhases = (
+				BC62AD341CB4B1B9004E274F /* Sources */,
+				BC62AD351CB4B1B9004E274F /* Frameworks */,
+				BC62AD361CB4B1B9004E274F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC62AD3A1CB4B1B9004E274F /* PBXTargetDependency */,
+			);
+			name = "键盘遮挡Tests";
+			productName = "键盘遮挡Tests";
+			productReference = BC62AD381CB4B1B9004E274F /* 键盘遮挡Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC62AD421CB4B1B9004E274F /* 键盘遮挡UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC62AD521CB4B1B9004E274F /* Build configuration list for PBXNativeTarget "键盘遮挡UITests" */;
+			buildPhases = (
+				BC62AD3F1CB4B1B9004E274F /* Sources */,
+				BC62AD401CB4B1B9004E274F /* Frameworks */,
+				BC62AD411CB4B1B9004E274F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC62AD451CB4B1B9004E274F /* PBXTargetDependency */,
+			);
+			name = "键盘遮挡UITests";
+			productName = "键盘遮挡UITests";
+			productReference = BC62AD431CB4B1B9004E274F /* 键盘遮挡UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC62AD171CB4B1B9004E274F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Xsummerybc;
+				TargetAttributes = {
+					BC62AD1E1CB4B1B9004E274F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC62AD371CB4B1B9004E274F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC62AD1E1CB4B1B9004E274F;
+					};
+					BC62AD421CB4B1B9004E274F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC62AD1E1CB4B1B9004E274F;
+					};
+				};
+			};
+			buildConfigurationList = BC62AD1A1CB4B1B9004E274F /* Build configuration list for PBXProject "键盘遮挡" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC62AD161CB4B1B9004E274F;
+			productRefGroup = BC62AD201CB4B1B9004E274F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC62AD1E1CB4B1B9004E274F /* 键盘遮挡 */,
+				BC62AD371CB4B1B9004E274F /* 键盘遮挡Tests */,
+				BC62AD421CB4B1B9004E274F /* 键盘遮挡UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC62AD1D1CB4B1B9004E274F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62AD321CB4B1B9004E274F /* LaunchScreen.storyboard in Resources */,
+				BC62AD2F1CB4B1B9004E274F /* Assets.xcassets in Resources */,
+				BC62AD2D1CB4B1B9004E274F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62AD361CB4B1B9004E274F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62AD411CB4B1B9004E274F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC62AD1B1CB4B1B9004E274F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62AD2A1CB4B1B9004E274F /* ViewController.m in Sources */,
+				BC62AD5F1CB4B4CC004E274F /* TPKeyboardAvoidingScrollView.m in Sources */,
+				BC62AD271CB4B1B9004E274F /* AppDelegate.m in Sources */,
+				BC62AD671CB4BD86004E274F /* CollectionViewCell.m in Sources */,
+				BC62AD611CB4B4CC004E274F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				BC62AD601CB4B4CC004E274F /* TPKeyboardAvoidingTableView.m in Sources */,
+				BC62AD641CB4B985004E274F /* TableViewCell.m in Sources */,
+				BC62AD5E1CB4B4CC004E274F /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				BC62AD241CB4B1B9004E274F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62AD341CB4B1B9004E274F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62AD3D1CB4B1B9004E274F /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC62AD3F1CB4B1B9004E274F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC62AD481CB4B1B9004E274F /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC62AD3A1CB4B1B9004E274F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC62AD1E1CB4B1B9004E274F /* 键盘遮挡 */;
+			targetProxy = BC62AD391CB4B1B9004E274F /* PBXContainerItemProxy */;
+		};
+		BC62AD451CB4B1B9004E274F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC62AD1E1CB4B1B9004E274F /* 键盘遮挡 */;
+			targetProxy = BC62AD441CB4B1B9004E274F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC62AD2B1CB4B1B9004E274F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC62AD2C1CB4B1B9004E274F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC62AD301CB4B1B9004E274F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC62AD311CB4B1B9004E274F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC62AD4A1CB4B1B9004E274F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC62AD4B1CB4B1B9004E274F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC62AD4D1CB4B1B9004E274F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "键盘遮挡/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC62AD4E1CB4B1B9004E274F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "键盘遮挡/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC62AD501CB4B1B9004E274F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "键盘遮挡Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘遮挡.app/键盘遮挡";
+			};
+			name = Debug;
+		};
+		BC62AD511CB4B1B9004E274F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "键盘遮挡Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘遮挡.app/键盘遮挡";
+			};
+			name = Release;
+		};
+		BC62AD531CB4B1B9004E274F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "键盘遮挡UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "键盘遮挡";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC62AD541CB4B1B9004E274F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "键盘遮挡UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7K--.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "键盘遮挡";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC62AD1A1CB4B1B9004E274F /* Build configuration list for PBXProject "键盘遮挡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62AD4A1CB4B1B9004E274F /* Debug */,
+				BC62AD4B1CB4B1B9004E274F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC62AD4C1CB4B1B9004E274F /* Build configuration list for PBXNativeTarget "键盘遮挡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62AD4D1CB4B1B9004E274F /* Debug */,
+				BC62AD4E1CB4B1B9004E274F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC62AD4F1CB4B1B9004E274F /* Build configuration list for PBXNativeTarget "键盘遮挡Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62AD501CB4B1B9004E274F /* Debug */,
+				BC62AD511CB4B1B9004E274F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC62AD521CB4B1B9004E274F /* Build configuration list for PBXNativeTarget "键盘遮挡UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC62AD531CB4B1B9004E274F /* Debug */,
+				BC62AD541CB4B1B9004E274F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC62AD171CB4B1B9004E274F /* Project object */;
+}
