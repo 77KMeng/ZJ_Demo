@@ -1,0 +1,3 @@
+pod 'YYKit', '~> 0.9.6'
+pod 'YYWebImage', '~> 0.9.11'
+pod 'YYImage/WebP'
