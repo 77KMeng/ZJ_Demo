@@ -87,24 +87,6 @@
 {
     NSLog(@"y ======= %lf", scrollView.contentOffset.y);
     scrollView.contentOffset.y > self.recordDistance ? scrollView.contentOffset.y < self.recordDistance ? [self.navigationController setNavigationBarHidden:NO animated:YES]:[self.navigationController setNavigationBarHidden:YES animated:YES] : [self.navigationController setNavigationBarHidden:NO animated:YES];
-    
-    // [self.customView setHidden:YES] UIViewAnimationCurveEaseOut
-//     scrollView.contentOffset.y > self.recordDistance ? scrollView.contentOffset.y < self.recordDistance ? ([UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionShowHideTransitionViews animations:^{
-//         //
-//     } completion:^(BOOL finished) {
-//         //
-//         [self.customView setHidden:NO];
-//     }]):([UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionShowHideTransitionViews animations:^{
-//         //
-//     } completion:^(BOOL finished) {
-//         //
-//         [self.customView setHidden:YES];
-//     }]):([UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionShowHideTransitionViews animations:^{
-//         //
-//     } completion:^(BOOL finished) {
-//         //
-//         [self.customView setHidden:NO];
-//     }]);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
